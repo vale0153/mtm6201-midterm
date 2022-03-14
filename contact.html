@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
 <div class="container">
@@ -20,23 +20,18 @@
         
     <h3 class="send-us">Send us a question or concern!</h3>
 
-    <div class="formword">Full Name</div>
-    <form action="index.html" method="post">
-        <label for="name"></label>
-        <input id="name">
-    </form>
-    <div class="formword">Email</div>
-    <form action="index.html" method="post">
-      <label for="email"></label>
-      <input id="email">
-  </form>
-  <div class="formword">Question/Concern</div>
-  <form action="index.html" method="post">
-    <label for="message"></label>
-    <input id="message">
-</form>
+   
+    <div class="texts">
+        <label for="fullname">Your Name</label>
+        <input type="text" id="fullname" name="fullname">
 
-<button class="send">Send</button>
+        <label for="email">Your Email</label>
+        <input type="text" id="email" name="email">
+
+        <label for="message">Your Message</label>
+        <textarea id="message" name="message"></textarea>
+    </div>
+    <input type="submit" name="submit" id="submit" value="SEND">
 <div class="mapsEmbed">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d360079.48489780043!2d-76.24528283041633!3d45.16440006864717!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1638408228590!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
   </div>
