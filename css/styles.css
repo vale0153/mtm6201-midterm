@@ -61,18 +61,14 @@ html{
 .container{
     width:1024px;
     margin:0 auto 10px;
-    background:#d4e9e7;
+    background: blue;
 }
 
 /**************************************************
                     Header
 **************************************************/
 header{
-    position:relative; /* elements with a position property will contain other elements with position absolute */
-}
-
-header img{
-    width:100%;
+    position:relative;
 }
 
 h1{
