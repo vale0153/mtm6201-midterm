@@ -113,8 +113,19 @@ h3{
                     Featured Products
 **************************************************/
 
-.two .three .halloween{
-    width:80%;
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px;
+}
+
+.duo{
+    text-align: center;
+}
+
+#two #three #halloween{
+    width:100%;
 }
 
 /**************************************************
@@ -128,7 +139,7 @@ h3{
 
 .texts label, .texts input, .texts textarea{
     display:block;
-    width:100%;
+    width: calc(100% - 0.75%);
     font-size:1.2rem; /* form elements do not inherit font-size, as they have a default set */
 }
 
@@ -194,11 +205,21 @@ a{
     .container{
         margin: 0 auto;
         width: 80%;
-        max-width: 1200px;
-    }
-
-    .texts input, textarea{
-        width:100%;
+        max-width: 1210px;
     }
 
 }
+
+@media screen and (min-width: 760px)
+.texts input, textarea {
+    /* width: 100%; */
+    max-width: 1200px;
+}
+.texts input {
+    margin-bottom: 1.4rem;
+}
+.texts label, .texts input, .texts textarea {
+    display: block;
+    width: calc(100% - 0.75%);
+    max-width: 1200px;
+    font-size: 1.2rem;
