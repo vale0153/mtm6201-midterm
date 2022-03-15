@@ -62,7 +62,7 @@ html{
     width:1000px;
     margin:0 auto 10px;
     background: #aad4cf;
-    height: 100vh;
+    height: 160vh;
 }
 
 /**************************************************
@@ -104,9 +104,11 @@ h3{
     text-align: center;
 }
 
-#cakepop2 #cakepop3{
-    width: 100%;
+.home{
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    
 }
 
 /**************************************************
@@ -120,13 +122,60 @@ h3{
     padding: 100px;
 }
 
-.duo{
-    text-align: center;
+.product1 {
+    border: 1px solid #222;
+    border-radius: 8px;
+    padding: 1rem;
 }
-
-#two #three #halloween{
+  
+.product1 h2 {
+    margin: 0;
+    border-bottom: 4px solid darkorchid;
+    font-weight: bolder;
+    font-size: x-large;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+}
+  
+.product1 button {
+    text-decoration: none;
+    background-color: darkorchid;
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    outline: none;
+}
+  
+.icon {
+    font-size: 4rem;
+  }
+  
+.emojis{
+    display: grid;
+    grid-template-columns: repeat(3, 417px);
+    gap: 16px;
+    justify-content: center;
+}
+  
+.product1 {
+    display: flex;
+    flex-direction: row;
+}
+  
+.icon{
+    order: -1;
+    align-self: center;
     width:100%;
 }
+  
+.product1 p {
+    flex-grow: 1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+} 
+
 
 /**************************************************
                     Form
